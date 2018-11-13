@@ -1,0 +1,13 @@
+git remote -v show current git remotes
+
+//You should have a remote of the repo name that you cloned (if you are a collaborator) If you don't you need to add that origin.
+
+git remote add origin git@github.com:username/reponame.git
+
+//You may want to add a heroku origin if the team is using one
+
+git remote add production git@heroku.com:appname.git
+
+//And if there is a staging app on heroku
+
+git remote add staging git@heroku.com:appname-staging.git
