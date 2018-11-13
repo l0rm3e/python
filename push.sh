@@ -1,8 +1,7 @@
 set -e
-sourcename=$1
 
-git add . $1
-git commit -m $1
+git add .
+git commit -m -a
 git push origin
 
-echo "Successfully pushed $1 to github.."
+echo "Successfully updated files to github.."
