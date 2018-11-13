@@ -2,6 +2,6 @@ set -e
 
 git add .
 git commit -m -a
-git push origin
+git push origin basic
 
 echo "Successfully updated files to github.."
