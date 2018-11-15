@@ -13,4 +13,6 @@ print('list two :' + str(list2))
 
 listcommon = [i for i in list1 if i in list2]
 
+listcommon.sort()
+
 print('Common numbers are : ' + str(listcommon))
