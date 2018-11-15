@@ -1,1 +1,1 @@
-ippint('Hello world!')
+print('Hello world!')
