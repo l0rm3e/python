@@ -13,6 +13,7 @@ def nth_fib(num):
 
 nth = int(input("How many fibonacci numbers to generate:"))
 
+//
 list = [nth_fib(i) for i in range(1,nth)]
 
 print(list)
